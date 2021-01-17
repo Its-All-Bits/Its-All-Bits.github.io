@@ -3,11 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.itsallbits.com/categories/</loc>
+    <loc>https://www.itsallbits.com/</loc>
+    <lastmod>2021-01-17T03:05:03-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.itsallbits.com/</loc>
+    <loc>https://www.itsallbits.com/posts/my-first-post/</loc>
+    <lastmod>2021-01-17T03:05:03-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.itsallbits.com/posts/</loc>
+    <lastmod>2021-01-17T03:05:03-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.itsallbits.com/categories/</loc>
   </url>
   
   <url>

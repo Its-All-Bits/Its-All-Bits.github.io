@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Tags</title>
+    <title>My First Post</title>
     <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -23,8 +23,13 @@
 <link rel="stylesheet" href="/assets/css/style.css"/>
 
     
-    <link rel="stylesheet" href="/assets/css/layouts/list.css">
-    <link rel="stylesheet" href="/assets/css/navigators/sidebar.css">
+<meta name="description" content="My First Post" />
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css"
+/>
+<link rel="stylesheet" href="/assets/css/layouts/single.css"/>
+<link rel="stylesheet" href="/assets/css/navigators/sidebar.css">
 
 
     
@@ -87,9 +92,6 @@ if (!doNotTrack) {
 
       
       
-  
-  
-
   <section class="sidebar-section" id="sidebar-section">
     <div class="sidebar-holder">
       <div class="sidebar" id="sidebar">
@@ -111,22 +113,64 @@ if (!doNotTrack) {
       
       
 <section class="content-section" id="content-section">
-  <div class="content container-fluid" id="content">
-    <div class="container-fluid post-card-holder" id="post-card-holder">
+  <div class="content">
+    <div class="container p-0 read-area">
       
+      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url(https://www.itsallbits.com/assets/images/default-hero.jpg);'>
+      </div>
+
       
-    </div>
-    <div class="paginator">
-      
+      <div class="page-content">
+        <div class="author-profile ml-auto align-self-lg-center">
+          <img class="rounded-circle" src='/images/author/LogoColor.png'/>
+          <h5 class="author-name">It&#39;s All Bits</h5>
+          <p>January 17, 2021</p>
+        </div>
+
+        <div class="title">
+          <h1>My First Post</h1>
+        </div>
+
+        <div class="post-content" id="post-content">
+          <p>Coming soon!</p>
+
+        </div>
+
+        
+        
+      <hr />
+        <div class="row next-prev-navigator">
 
 
+  
+    
+    
+  
+
+</div>
+
+      <hr />
+      </div>
     </div>
   </div>
+  
 </section>
 
 
       
-       
+      
+  <section class="toc-section" id="toc-section">
+    
+    <div class="toc-holder">
+      <h5 class="text-center pl-3">Table of Contents</h5>
+      <hr>
+      <div class="toc">
+        <nav id="TableOfContents"></nav>
+      </div>
+    </div>
+    
+  </section>
+
     </div>
 
     
@@ -231,7 +275,12 @@ if (!doNotTrack) {
 
     
     
-    <script src="/assets/js/list.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
+<script src="/assets/js/single.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+
 
   </body>
 </html>
